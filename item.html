@@ -8,14 +8,14 @@
 			<!-- шапка -->
 	<header>
 		<div class="index-logo">
-			<a href="#" class="logo"><img src="http://placehold.it/150x100" alt="#"></a>
+			<a href="index.html" class="logo"><img src="http://placehold.it/150x100" alt="#"></a>
 		</div>
 		<nav class="main-nav">
 			<ul>
-				<li><a href="#">студия</a></li>
-				<li><a href="#">клиенты</a></li>
-				<li><a href="#">магазин</a></li>
-				<li><a href="#">контакты</a></li>
+				<li><a href="item.html">студия</a></li>
+				<li><a href="item.html">клиенты</a></li>
+				<li><a href="item.html">магазин</a></li>
+				<li><a href="item.html">контакты</a></li>
 			</ul>
 		</nav>
 		<div class="basket">
@@ -25,76 +25,82 @@
 			<!-- основной контент -->
 	<div class="main-container">
 		<h1>Mагазин готовых шаблонов</h1>
-		<section class="sorting">
-      		<span class="sort">Сортировка:</span>
-      		<span>по цене</span>
-      		<span>по типу</span>
-      		<span>по названию</span>
-      		<span><img src="http://placehold.it/150x100" alt="вверх"></span>
-      		<span><img src="http://placehold.it/150x100" alt="вниз"></span>
-    	</section>
-    	<section class="left-column">
-    		<form action="/echo" method="get">
+		<aside class="left-column">
+    		<a href="#">Сортировка:</a>
+    		<form action="https://echo.htmlacademy.ru" method="post">
 			<div class="price-controls">
-                от <input class="min-price" type="text" value="0">
-                до <input class="max-price" type="text" value="15000">
+                <label>от<input class="min-price" type="text" value="0"></label>
+                <label>до<input class="max-price" type="text" value="15000"></label>
             </div>
             <div class="functions">
-            	<span class="functions-name">сетка:</span>
-            	<ul>
-            		<li><label><input type="radio" name="Адаптивная" checked>Адаптивная</label></li>
-            		<li><label><input type="radio" name="Фиксированная">Фиксированная</label></li>
-            		<li><label><input type="radio" name="Резиновая">Резиновая</label></li>
-            	</ul>
+            	<h2>сетка:</h2>
+            		<label><input type="radio" name="Адаптивная" checked>Адаптивная</label>
+            		<label><input type="radio" name="Фиксированная">Фиксированная</label>
+            		<label><input type="radio" name="Резиновая">Резиновая</label>
             </div>
             <div class="option">
-            	<span class="option-name">особенности:</span>
-            	<ul>
-            		<li><label><input type="checkbox" name="Cлайдер" checked>Cлайдер</label></li>
-            		<li><label><input type="checkbox" name="Блок преимуществ">Блок преимуществ</label></li>
-            		<li><label><input type="checkbox" name="Новости" checked>Новости</label></li>
-            		<li><label><input type="checkbox" name="Галерея">Галерея</label></li>
-            		<li><label><input type="checkbox" name="Корзина">Корзина</label></li>
-            	</ul>
+            	<h2>особенности:</h2>
+            		<label><input type="checkbox" name="Cлайдер" checked>Cлайдер</label>
+            		<label><input type="checkbox" name="Блок преимуществ">Блок преимуществ</label>
+            		<label><input type="checkbox" name="Новости" checked>Новости</label>
+            		<label><input type="checkbox" name="Галерея">Галерея</label>
+            		<label><input type="checkbox" name="Корзина">Корзина</label>
             </div>
-            <button type="submit" class="btn-6">показать</button>
+            <button type="submit" class="btn">показать</button>
 			</form>
+    	</aside>
+    	<section class="sorting">
+			<ul>
+      			<li><a href="#">по цене</a></li>
+      			<li><a href="#">по типу</a></li>
+      			<li><a href="#">по названию</a></li>
+      			<li><a href="#"><img src="http://placehold.it/150x100" alt="вверх"></a></li>
+      			<li><a href="#"><img src="http://placehold.it/150x100" alt="вниз"></a></li>
+      		</ul>
     	</section>
     	<section class="portfolio">
-    		<article class="sedona">
+    		<article>
           		<img src="http://placehold.it/150x100" alt="sedona" title="sedona">
+          		<div class="write">
+          			<h3>sedona</h3>
+          			<p>информационный сайт для туристов</p>
+          			<a href="#" class="btn">9 900 руб.</a>
+          		</div>
       		</article>
-      		<article class="pink">
+      		<article>
           		<img src="http://placehold.it/150x100" alt="pink" title="pink">
       		</article>
-      		<article class="barbershop">
+      		<article>
          		<img src="http://placehold.it/150x100" alt="borodinski" title="borodinski">
       		</article>
-      		<article class="mishka">
+      		<article>
           		<img src="http://placehold.it/150x100" alt="mishka" title="mishka">
       		</article>
-      		<article class="aplus">
+      		<article>
           		<img src="http://placehold.it/150x100" alt="aplus" title="aplus">
       		</article>
-      		<article class="kvast">
+      		<article>
          		<img src="http://placehold.it/150x100" alt="kvast" title="kvast">
       		</article>
     	</section>
-    	<div class="scroll">
-        	<a href="#" class="btn">1</a>
-        	<a href="#" class="btn">2</a>
-        	<a href="#" class="btn">3</a>
-       		<a href="#" class="btn">следующая</a>
+    	<div class="paginator">
+    		<ul>
+        		<li><a href="#" class="btn">1</a></li>
+        		<li><a href="#" class="btn">2</a></li>
+        		<li><a href="#" class="btn">3</a></li>
+       			<li><a href="#" class="btn">следующая</a></li>
+       		</ul>
       	</div>
+      	<section class="map">
+			<img src="http://placehold.it/150x100" alt="#">
+		</section>
 	</div>
 			<!-- подвал -->
 	<footer>
-		<div class="map">
-			<img src="http://placehold.it/150x100" alt="#">
-		</div>
 		<aside class="contact">
-			<span>nёrds design studio</span>
-			<p>191186,Cанкт-Петербург<br>ул.Б.Конюшенная,д.19/8</p>
+			<h3>nёrds design studio</h3>
+			<p>191186,Cанкт-Петербург</p>
+			<p>ул.Б.Конюшенная,д.19/8</p>
 			<p>тел. +7(812)275-75-75</p>
 			<button type="submit" class="btn">напишите нам</button>
 		</aside>
@@ -115,7 +121,7 @@
 			</ul>
 		</div>
 		<div class="sale">
-			<span>Давайте дружить, это выгодно!</span>
+			<h3>Давайте дружить, это выгодно!</h3>
 			<span>Скидка 10% для друзей из социальных сетей.</span>
 		</div>
 	</footer>
