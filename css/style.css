@@ -46,6 +46,10 @@ h2 {
 	text-transform: uppercase;
 	background-color: green;
 }
+.main-nav li {
+	display: inline;
+	padding-right: 40px;
+}
 .basket {
 	width: 160px;
 	display: inline-block;
@@ -53,20 +57,104 @@ h2 {
 	font-size: 16px;
 	background-color: yellow;
 }
-.slaider {
-	display: inline-block;
-	vertical-align: top;
-}
-.slide {
+.slide-text {
 	display: inline-block;
 	vertical-align: top;
 	width: 400px;
 	font-size: 16px;
-	background-color: green;
+	background-color: yellow;
 }
 .slide-img {
 	display: inline-block;
 	vertical-align: top;
 	width: 760px;
 	background-color: red;
+}
+.feature-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+	margin-right: 100px;
+	font-size: 16px;
+	background-color: green;
+}
+.feature-item:last-child {
+	margin-right: 60px;
+}
+.about-left {
+	display: inline-block;
+	vertical-align: top;
+	width: 700px;
+	font-size: 16px;
+	margin-right: 100px;
+	background-color: red;
+}
+.about-right {
+	display: inline-block;
+	vertical-align: top;
+	width: 360px;
+	font-size: 16px;
+	background-color: yellow;
+}
+.logos a {
+	display: inline-block;
+	vertical-align: top;
+	width: 260px;
+	margin-right: 40px;
+	background-color: yellow;
+}
+.logos a:last-child {
+	margin-right: 0px;
+}
+.contact {
+	display: inline-block;
+	vertical-align: top;
+	width: 320px;
+	padding-left: 45px;
+	padding-right: 60px;
+	box-sizing: border-box;
+	font-size: 16px;
+	background-color: yellow;
+}
+.social li {
+	display: inline-block;
+	vertical-align: top;
+	width: 80px;
+	background-color: #e1e1e1;
+	margin-right: 10px;
+}
+.sale {
+	display: inline-block;
+	vertical-align: top;
+	width: 700px;
+	padding-left: 140px;
+	box-sizing: border-box;
+	font-size: 16px;
+	background-color: green;
+}
+.left-column {
+	display: inline-block;
+	vertical-align: top;
+	width: 360px;
+	font-size: 16px;
+	background-color: yellow;
+}
+label input {
+	vertical-align: middle;
+}
+.sorting {
+	display: inline-block;
+	vertical-align: top;
+	width: 800px;
+	font-size: 16px;
+	background-color: red;
+}
+.sorting li {
+	display: inline;
+}
+.portfolio {
+	display: inline-block;
+	vertical-align: top;
+	width: 800px;
+	background-color: green;
 }
