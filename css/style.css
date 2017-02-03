@@ -12,6 +12,7 @@ h1 {
 	line-height: 55px;
 	color: #000000;
 	font-weight: normal;
+	margin-left: 220px;
 }
 h2 {
 	font-family: 'Roboto-Medium', 'Arial', sans-serif;
@@ -139,8 +140,11 @@ h2 {
 	font-size: 16px;
 	background-color: yellow;
 }
-label input {
-	vertical-align: middle;
+.right-column {
+	display: inline-block;
+	vertical-align: top;
+	width: 800px;
+	font-size: 16px;
 }
 .sorting {
 	display: inline-block;
@@ -157,4 +161,16 @@ label input {
 	vertical-align: top;
 	width: 800px;
 	background-color: green;
+}
+.write {
+	display: inline-block;
+	vertical-align: top;
+	width: 360px;
+	background-color: yellow;
+}
+.write h1 {
+	font-size: 16px;
+}
+.paginator li {
+	display: inline;
 }
