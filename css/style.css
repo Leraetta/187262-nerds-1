@@ -124,6 +124,10 @@ h2 {
 	background-color: #e1e1e1;
 	margin-right: 10px;
 }
+.social {
+	display: inline-block;
+	vertical-align: top;
+}
 .sale {
 	display: inline-block;
 	vertical-align: top;
@@ -149,12 +153,25 @@ h2 {
 .sorting {
 	display: inline-block;
 	vertical-align: top;
-	width: 800px;
 	font-size: 16px;
 	background-color: red;
 }
+.sorting ul:first-child {
+	display: inline-block;
+	vertical-align: top;
+	width: 740px;
+}
 .sorting li {
 	display: inline;
+}
+.sorting ul:last-child {
+	display: inline-block;
+	vertical-align: top;
+	width: 60px;
+	background-color: grey;
+}
+.sorting ul {
+	padding: 0;
 }
 .portfolio {
 	display: inline-block;
@@ -163,7 +180,7 @@ h2 {
 	background-color: green;
 }
 .write {
-	display: inline-block;
+	display: none;
 	vertical-align: top;
 	width: 360px;
 	background-color: yellow;
