@@ -148,18 +148,18 @@ h2 {
 	display: inline-block;
 	vertical-align: top;
 	width: 800px;
-	font-size: 16px;
 }
 .sorting {
 	display: inline-block;
 	vertical-align: top;
-	font-size: 16px;
+	font-size: 0;
 	background-color: red;
 }
 .sorting ul:first-child {
 	display: inline-block;
 	vertical-align: top;
 	width: 740px;
+	font-size: 16px;
 }
 .sorting li {
 	display: inline;
@@ -168,6 +168,7 @@ h2 {
 	display: inline-block;
 	vertical-align: top;
 	width: 60px;
+	font-size: 16px;
 	background-color: grey;
 }
 .sorting ul {
@@ -190,4 +191,6 @@ h2 {
 }
 .paginator li {
 	display: inline;
+	padding-right: 5px;
+	background-color: red;
 }
