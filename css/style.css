@@ -180,6 +180,33 @@ h2 {
 	width: 800px;
 	background-color: green;
 }
+.sedona {
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 40px;
+}
+.pink {
+	display: inline-block;
+	vertical-align: top;
+}
+.barbershop {
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 40px;
+}
+.mishka {
+	display: inline-block;
+	vertical-align: top;
+}
+.aplus {
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 40px;
+}
+.kvast {
+	display: inline-block;
+	vertical-align: top;
+}
 .write {
 	display: none;
 	vertical-align: top;
