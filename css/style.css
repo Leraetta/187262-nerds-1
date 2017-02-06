@@ -180,32 +180,12 @@ h2 {
 	width: 800px;
 	background-color: green;
 }
-.sedona {
+.lend {
 	display: inline-block;
 	vertical-align: top;
+}
+.lend:nth-child(odd) {
 	padding-right: 40px;
-}
-.pink {
-	display: inline-block;
-	vertical-align: top;
-}
-.barbershop {
-	display: inline-block;
-	vertical-align: top;
-	padding-right: 40px;
-}
-.mishka {
-	display: inline-block;
-	vertical-align: top;
-}
-.aplus {
-	display: inline-block;
-	vertical-align: top;
-	padding-right: 40px;
-}
-.kvast {
-	display: inline-block;
-	vertical-align: top;
 }
 .write {
 	display: none;
