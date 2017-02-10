@@ -1,5 +1,26 @@
+@font-face {
+  font-family: 'roboto';
+  src: 	url('../fonts/web/roboto.woff2') format('woff2'),
+  		url('../fonts/web/roboto.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotobold';
+  src: 	url('../fonts/web/robotobold.woff2') format('woff2'),
+  		url('../fonts/web/robotobold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotomedium';
+  src: 	url('../fonts/web/robotomedium.woff2') format('woff2'),
+  		url('../fonts/web/robotomedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
-	font-family: 'Roboto', 'Arial', sans-serif;
+	font-family: 'roboto', 'Arial', sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	color: #283136;
@@ -7,7 +28,7 @@ body {
 	width: 100%;
 }
 h1 {
-	font-family: 'Roboto-Medium', 'Arial', sans-serif;
+	font-family: 'robotomedium', 'Arial', sans-serif;
 	font-size: 55px;
 	line-height: 55px;
 	color: #000000;
@@ -15,7 +36,7 @@ h1 {
 	margin-left: 220px;
 }
 h2 {
-	font-family: 'Roboto-Medium', 'Arial', sans-serif;
+	font-family: 'robotomedium', 'Arial', sans-serif;
 	font-size: 55px;
 	line-height: 55px;
 	color: #000000;
@@ -35,7 +56,6 @@ h2 {
 }
 .index-logo {
 	width: 360px;
-	background-color: red;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -45,31 +65,56 @@ h2 {
 	vertical-align: top;
 	font-size: 16px;
 	text-transform: uppercase;
-	background-color: green;
 }
 .main-nav li {
 	display: inline;
 	padding-right: 40px;
+}
+.main-nav a, .basket a {
+	text-decoration: none;
+	font-family: 'robotomedium', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #000000;
 }
 .basket {
 	width: 160px;
 	display: inline-block;
 	vertical-align: top;
 	font-size: 16px;
-	background-color: yellow;
-}
+}	
 .slide-text {
 	display: inline-block;
 	vertical-align: top;
 	width: 400px;
 	font-size: 16px;
-	background-color: yellow;
+}
+.slide-text h2 {
+	font-family: 'robotomedium', 'Arial', sans-serif;
+	font-size: 55px;
+	line-height: 55px;
+	color: #000000;
+}
+.slide-text p {
+	font-family: 'roboto', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #283136;
+}
+.slide a {
+	font-family: 'robotomedium', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000000;
 }
 .slide-img {
 	display: inline-block;
 	vertical-align: top;
 	width: 760px;
-	background-color: red;
 }
 .feature-item {
 	display: inline-block;
@@ -77,10 +122,31 @@ h2 {
 	width: 300px;
 	margin-right: 100px;
 	font-size: 16px;
-	background-color: green;
 }
 .feature-item:last-child {
 	margin-right: 60px;
+}
+.feature-item h2 {
+	font-family: 'robotobold', 'Arial', sans-serif;
+	font-size: 24px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #000000;
+}
+.feature-item p {
+	font-family: 'roboto', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #283136;
+}
+.feature-item a, .contact a {
+	font-family: 'robotomedium', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000000;
 }
 .about-left {
 	display: inline-block;
@@ -88,21 +154,59 @@ h2 {
 	width: 700px;
 	font-size: 16px;
 	margin-right: 100px;
-	background-color: red;
+}
+.about-left h3 {
+	font-family: 'robotomedium', 'Arial', sans-serif;
+	font-size: 45px;
+	line-height: 45px;
+	font-weight: 100;
+	color: #000000;
+}
+.about-left p, .about-left li {
+	font-family: 'roboto', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #283136;
+}
+.about-left h4 {
+	font-family: 'robotomedium', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #000000;
 }
 .about-right {
 	display: inline-block;
 	vertical-align: top;
 	width: 360px;
 	font-size: 16px;
-	background-color: yellow;
+}
+.about-right h4 {
+	font-family: 'robotomedium', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #000000;
+}
+.about-right strong {
+	font-family: 'robotobold', 'Arial', sans-serif;
+	font-size: 45px;
+	line-height: 10,06px;
+	color: #000000;
+}
+.about-right span {
+	font-family: 'roboto', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 500;
+	color: #283136;
 }
 .logos a {
 	display: inline-block;
 	vertical-align: top;
 	width: 260px;
 	margin-right: 40px;
-	background-color: yellow;
 }
 .logos a:last-child {
 	margin-right: 0px;
@@ -115,7 +219,19 @@ h2 {
 	padding-right: 60px;
 	box-sizing: border-box;
 	font-size: 16px;
-	background-color: yellow;
+}
+.contact h3 {
+	font-family: 'robotobold', 'Arial', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #000000;
+}
+.contact p {
+	font-family: 'roboto', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	color: #283136;
 }
 .social li {
 	display: inline-block;
@@ -135,14 +251,61 @@ h2 {
 	padding-left: 140px;
 	box-sizing: border-box;
 	font-size: 16px;
-	background-color: green;
+}
+.sale h3 {
+	font-family: 'robotobold', 'Arial', sans-serif;
+	font-size: 36px;
+	line-height: 36px;
+	color: #000000;
+}
+.sale span {
+	font-family: 'roboto', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	color: #283136;
 }
 .left-column {
 	display: inline-block;
 	vertical-align: top;
 	width: 360px;
 	font-size: 16px;
-	background-color: yellow;
+}
+.left-column a, .sorting a {
+	font-family: 'robotobold', 'Arial', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000000;
+}
+.left-column h2 {
+	font-family: 'robotobold', 'Arial', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #000000;
+}
+.left-column label {
+	font-family: 'roboto', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: normal;
+	color: #283136;
+}
+.left-column .btn {
+	font-family: 'robotomedium', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #000000;
+}
+.sorting ul a {
+	font-family: 'roboto', 'Arial', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000000;
 }
 .right-column {
 	display: inline-block;
@@ -153,7 +316,6 @@ h2 {
 	display: inline-block;
 	vertical-align: top;
 	font-size: 0;
-	background-color: red;
 }
 .sorting ul:first-child {
 	display: inline-block;
@@ -169,7 +331,6 @@ h2 {
 	vertical-align: top;
 	width: 60px;
 	font-size: 16px;
-	background-color: grey;
 }
 .sorting ul {
 	padding: 0;
@@ -178,7 +339,6 @@ h2 {
 	display: inline-block;
 	vertical-align: top;
 	width: 800px;
-	background-color: green;
 }
 .lend {
 	display: inline-block;
@@ -191,13 +351,37 @@ h2 {
 	display: none;
 	vertical-align: top;
 	width: 360px;
-	background-color: yellow;
 }
 .write h1 {
+	font-family: 'robotobold', 'Arial', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #000000;
+}
+.write p {
+	font-family: 'roboto', 'Arial', sans-serif;
 	font-size: 16px;
+	line-height: 18px;
+	color: #000000;
+}
+.write a {
+	font-family: 'robotomedium', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000000;
 }
 .paginator li {
 	display: inline;
 	padding-right: 5px;
-	background-color: red;
+}
+.paginator a {
+	font-family: 'robotomedium', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000000;
 }
