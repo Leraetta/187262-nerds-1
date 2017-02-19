@@ -456,6 +456,9 @@ header {
 	opacity: 0.1;  
 }
 
+.map {
+	position: relative;
+}
 .contact {
   display: inline-block;
   vertical-align: top;
@@ -468,7 +471,7 @@ header {
   font-size: 16px;
   background-color: #ffffff;
   position: absolute;
-  margin-top: 55px;
+  margin-top: -10px;
   left: 215px;
   
 }
