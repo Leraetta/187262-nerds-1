@@ -1076,13 +1076,14 @@ border-radius: 50%;
   text-align: center;
   padding-bottom: 65px;
   margin-bottom: 54px;
+
 }
 
 .heading h1 {
   margin: 0;
   padding: 40px 0;
   padding-top: 67px;
-  background-color: #ffffff;
+  background-color: #eeeeee;
 }
 
 .contact img {
@@ -1102,14 +1103,14 @@ border-radius: 50%;
     padding-bottom: 80px;
 }
 
-.letter h1 {
+.letter span {
   font-family: 'robotomedium', 'Arial', sans-serif;
   font-size: 45px;
   line-height: 45px;
   color: #000000;
   margin-left: 0px;
   box-sizing: border-box;
-  background-color: transparent;
+  
 }
 
 .letter .name {
