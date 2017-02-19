@@ -1,145 +1,159 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-  <body>
-			<!-- шапка -->
-	<header>
-		<div class="header-container">
-		<div class="index-logo">
-			<a href="index.html" class="logo"><img src="img/nerds-logo.png" width="160" height="65" alt="логотип"></a>
-		</div>
-		<nav class="main-nav">
-			<ul>
-				<li><a href="#">студия</a></li>
-				<li><a href="#">клиенты</a></li>
-				<li><a href="item.html">магазин</a></li>
-				<li><a href="#">контакты</a></li>
-			</ul>
-		</nav>
-		<div class="basket">
-			<a href="#">корзина</a>
-		</div>
-		</div>
-	</header>
-			<!-- основной контент -->
-	<div class="main-container">
-		<h1>Mагазин готовых шаблонов</h1>
-		<aside class="left-column">
-    		<a href="#">Сортировка:</a>
-    		<form action="https://echo.htmlacademy.ru" method="post">
-          <div class="range-filter">
-            <div class="range-controls">
-              <div class="scale">
-                <div class="bar" style="margin-left: 20%; width: 30%"></div>
-              </div>
-          <div class="toggle toggle-min"></div>
-          <div class="toggle toggle-max"></div>
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Нёрдс</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- шапка -->
+  <header>
+    <div class="header-container">
+      <div class="index-logo">
+        <a href="index.html" class="logo"><img src="img/nerds-logo.png" width="160" height="65" alt="логотип"></a>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#">студия</a></li>
+          <li><a href="#">клиенты</a></li>
+          <li><a href="item.html">магазин</a></li>
+          <li><a href="#">контакты</a></li>
+        </ul>
+      </nav>
+      <div class="basket">
+        <a href="#">корзина</a>
+      </div>
+    </div>
+  </header>
+  <!-- основной контент -->
+  <section class="heading">
+    <h1>Mагазин готовых шаблонов</h1>
+  </section>
+  <div class="main-container">
+    <aside class="left-column">
+      <a href="#">Стоимость:</a>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <div class="range-filter">
+          <div class="range-controls">
+            <div class="scale">
+              <div class="bar" style="margin-left: 20%; width: 30%"></div>
             </div>
-            <div class="price-controls">
-              <label class="min-price">от <input name="min-price" type="text" value="0"></label>
-              <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
-            </div>
+            <div class="toggle toggle-min"></div>
+            <div class="toggle toggle-max"></div>
+          </div>
+          <div class="price-controls">
+            <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+            <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+          </div>
         </div>
-			     <div class="functions">
-            	<h2>сетка:</h2>
-            		<label><input type="radio" name="Адаптивная" checked>Адаптивная</label>
-            		<label><input type="radio" name="Фиксированная">Фиксированная</label>
-            		<label><input type="radio" name="Резиновая">Резиновая</label>
-            </div>
-            <div class="option">
-            	<h2>особенности:</h2>
-            		<label><input type="checkbox" name="Cлайдер" checked>Cлайдер</label>
-            		<label><input type="checkbox" name="Блок преимуществ">Блок преимуществ</label>
-            		<label><input type="checkbox" name="Новости" checked>Новости</label>
-            		<label><input type="checkbox" name="Галерея">Галерея</label>
-            		<label><input type="checkbox" name="Корзина">Корзина</label>
-            </div>
-            <button type="submit" class="btn">показать</button>
-			</form>
-    	</aside>
-    	<section class="right-column">
-    	<section class="sorting">
+        <div class="functions">
+          <h2>сетка:</h2>
+          <label><input type="radio" name="Адаптивная" checked>Адаптивная</label>
+          <label><input type="radio" name="Фиксированная">Фиксированная</label>
+          <label><input type="radio" name="Резиновая">Резиновая</label>
+        </div>
+        <div class="option">
+          <h2>особенности:</h2>
+          <label><input type="checkbox" name="Cлайдер" checked>Cлайдер</label>
+          <label><input type="checkbox" name="Блок преимуществ">Блок преимуществ</label>
+          <label><input type="checkbox" name="Новости" checked>Новости</label>
+          <label><input type="checkbox" name="Галерея">Галерея</label>
+          <label><input type="checkbox" name="Корзина">Корзина</label>
+        </div>
+        <button type="submit" class="btn">показать</button>
+      </form>
+    </aside>
+    <section class="right-column">
+      <section class="sorting">
         <a>Сортировать:</a>
-			<ul>
-      			<li><a href="#">по цене</a></li>
-      			<li><a href="#">по типу</a></li>
-      			<li><a href="#">по названию</a></li>
-      		</ul>
-      		<ul>
-      			<li><a href="#"><img src="img/icons/sort-up.png" alt="вверх" width="9" height="9"></a></li>
-      			<li><a href="#"><img src="img/icons/sort-down.png" alt="вниз" width="9" height="9"></a></li>
-      		</ul>
-    	</section>
-    	<section class="portfolio">
-    		<article class="lend">
-          		<img src="img/sedona.png" alt="sedona" title="sedona" width="360" height="576">
-          		<div class="write">
-          			<h1>sedona</h1>
-          			<p>информационный сайт для туристов</p>
-          			<a href="#" class="btn">9 900 руб.</a>
-          		</div>
-      		</article>
-      		<article class="lend">
-          		<img src="img/pink.png" alt="pink" title="pink" width="360" height="576">
-      		</article>
-      		<article class="lend">
-         		<img src="img/barbershop.png" alt="borodinski" title="borodinski" width="360" height="576">
-      		</article>
-      		<article class="lend">
-          		<img src="img/mishka.png" alt="mishka" title="mishka" width="360" height="576">
-      		</article>
-      		<article class="lend">
-          		<img src="img/aplus.png" alt="aplus" title="aplus" width="360" height="576">
-      		</article>
-      		<article class="lend">
-         		<img src="img/kvast.png" alt="kvast" title="kvast" width="360" height="576">
-      		</article>
-    	</section>
-    	<div class="paginator">
-    		<ul>
-        		<li><a href="#" class="btn">1</a></li>
-        		<li><a href="#" class="btn">2</a></li>
-        		<li><a href="#" class="btn">3</a></li>
-       			<li><a href="#" class="btn">следующая</a></li>
-       		</ul>
-      	</div>
-      	</section>
-     </div>
-      	<section class="map">
-			<img src="img/map.png" alt="карта" width="1440" height="416">
-			<div class="contact">
-				<h3>nёrds design studio</h3>
-				<p>191186,Cанкт-Петербург ул.Б.Конюшенная,д.19/8 тел. +7(812)275-75-75</p>
-				<a href="#" class="btn">напишите нам</a>
-			</div>
-		</section>
-			<!-- подвал -->
-	<footer>
-		<div class="container">
-			<!-- <img src="img/map-marker.png" alt="курсор" width="231" height="190"> -->
-		<div class="social">
-			<ul>
-				<li><a href="#" class="social-btn vk">
-          <img src="img/icons/vk-icon.png" alt="vk" width="12" height="22">
-        </a></li>
-        <li><a href="#" class="social-btn fb">
-          <img src="img/icons/fb-icon.png" alt="fb" width="12" height="22">
-        </a></li>
-        <li><a href="#" class="social-btn inst">
-          <img src="img/icons/insta-icon.png" alt="inst" width="12" height="22">
-        </a></li>
-			</ul>
-		</div>
-		<div class="sale">
-			<h3>Давайте дружить, это выгодно!</h3>
-			<span>Скидка 10% для друзей из социальных сетей.</span>
-		</div>
-		</div>
-	</footer>
-  </body>
+        <ul>
+          <li><a href="#">по цене</a></li>
+          <li><a href="#">по типу</a></li>
+          <li><a href="#">по названию</a></li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="img/icons/sort-up.png" alt="вверх" width="9" height="9"></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/icons/sort-down.png" alt="вниз" width="9" height="9"></a>
+          </li>
+        </ul>
+      </section>
+      <section class="portfolio">
+        <article class="lend">
+          <img src="img/sedona.png" alt="sedona" title="sedona" width="360" height="576">
+          <div class="write">
+            <h1>sedona</h1>
+            <p>Информационный сайт для туристов</p>
+            <a href="#" class="btn">9 900 руб.</a>
+          </div>
+        </article>
+        <article class="lend">
+          <img src="img/pink.png" alt="pink" title="pink" width="360" height="576">
+        </article>
+        <article class="lend">
+          <img src="img/barbershop.png" alt="borodinski" title="borodinski" width="360" height="576">
+        </article>
+        <article class="lend">
+          <img src="img/mishka.png" alt="mishka" title="mishka" width="360" height="576">
+        </article>
+        <article class="lend">
+          <img src="img/aplus.png" alt="aplus" title="aplus" width="360" height="576">
+        </article>
+        <article class="lend">
+          <img src="img/kvast.png" alt="kvast" title="kvast" width="360" height="576">
+        </article>
+      </section>
+      <div class="paginator">
+        <ul>
+          <li><a href="#" class="btn active">1</a></li>
+          <li><a href="#" class="btn">2</a></li>
+          <li><a href="#" class="btn">3</a></li>
+          <li><a href="#" class="btn">следующая</a></li>
+        </ul>
+      </div>
+    </section>
+  </div>
+  <section class="map">
+    <img src="img/map.png" alt="карта" width="1440" height="416">
+    <div class="contact">
+      <h3>nёrds design studio</h3>
+      <p>191186,Cанкт-Петербург ул.Б.Конюшенная,д.19/8 тел. +7(812)275-75-75</p>
+      <a href="#" class="btn">напишите нам</a>
+      <img src="img/map-marker.png" alt="курсор" width="231" height="190">
+    </div>
+  </section>
+  <!-- подвал -->
+  <footer>
+    <div class="container">
+      <div class="social">
+        <ul>
+          <li>
+            <a href="#" class="social-btn vk">
+              <img src="img/icons/vk-icon.png" alt="vk" width="22" height="22">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-btn fb">
+              <img src="img/icons/fb-icon.png" alt="fb" width="22" height="22">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-btn inst">
+              <img src="img/icons/insta-icon.png" alt="inst" width="22" height="22">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="sale">
+        <h3>Давайте дружить, это выгодно!</h3>
+        <span>Скидка 10% для друзей из социальных сетей.</span>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
