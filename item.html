@@ -34,7 +34,7 @@
   </section>
   <div class="main-container">
     <aside class="left-column">
-      <a href="#">Стоимость:</a>
+      <h2>Стоимость:</h2>
       <form action="https://echo.htmlacademy.ru" method="post">
         <div class="range-filter">
           <div class="range-controls">
@@ -51,24 +51,33 @@
         </div>
         <div class="functions">
           <h2>сетка:</h2>
-          <label><input type="radio" name="Адаптивная" checked>Адаптивная</label>
-          <label><input type="radio" name="Фиксированная">Фиксированная</label>
-          <label><input type="radio" name="Резиновая">Резиновая</label>
+          <input type="radio" name="Адаптивная" id="r-1" checked>
+          <label for="r-1">Адаптивная</label>
+          <input type="radio" name="Фиксированная" id="r-2">
+          <label for="r-2">Фиксированная</label>
+          <input type="radio" name="Резиновая" id="r-3">
+          <label for="r-3">Резиновая</label>
         </div>
         <div class="option">
           <h2>особенности:</h2>
-          <label><input type="checkbox" name="Cлайдер" checked>Cлайдер</label>
-          <label><input type="checkbox" name="Блок преимуществ">Блок преимуществ</label>
-          <label><input type="checkbox" name="Новости" checked>Новости</label>
-          <label><input type="checkbox" name="Галерея">Галерея</label>
-          <label><input type="checkbox" name="Корзина">Корзина</label>
+          <input type="checkbox" name="Cлайдер" checked id="ch-1">
+          <label for="ch-1">Cлайдер</label>
+          <input type="checkbox" name="Блок преимуществ" id="ch-2">
+          <label for="ch-2">Блок преимуществ</label>
+          <input type="checkbox" name="Новости" checked id="ch-3">
+          <label for="ch-3">Новости</label>
+          <input type="checkbox" name="Галерея" id="ch-4">
+          <label for="ch-4">Галерея</label>
+          <input type="checkbox" name="Корзина" id="ch-5">
+          <label for="ch-5">Корзина</label>
         </div>
         <button type="submit" class="btn">показать</button>
       </form>
     </aside>
     <section class="right-column">
       <section class="sorting">
-        <a>Сортировать:</a>
+        <h2>Сортировать:</h2>
+        <div class="sort">
         <ul>
           <li><a href="#">по цене</a></li>
           <li><a href="#">по типу</a></li>
@@ -76,16 +85,17 @@
         </ul>
         <ul>
           <li>
-            <a href="#"><img src="img/icons/sort-up.png" alt="вверх" width="9" height="9"></a>
-          </li>
-          <li>
             <a href="#"><img src="img/icons/sort-down.png" alt="вниз" width="9" height="9"></a>
           </li>
+          <li>
+            <a href="#"><img src="img/icons/sort-up.png" alt="вверх" width="9" height="9"></a>
+          </li>
         </ul>
+        </div>
       </section>
       <section class="portfolio">
         <article class="lend">
-          <img src="img/sedona.png" alt="sedona" title="sedona" width="360" height="576">
+          <a href="#"><img src="img/sedona.png" alt="sedona" title="sedona" width="360" height="576"></a>
           <div class="write">
             <h1>sedona</h1>
             <p>Информационный сайт для туристов</p>
@@ -93,19 +103,19 @@
           </div>
         </article>
         <article class="lend">
-          <img src="img/pink.png" alt="pink" title="pink" width="360" height="576">
+          <a href="#"><img src="img/pink.png" alt="pink" title="pink" width="360" height="576"></a>
         </article>
         <article class="lend">
-          <img src="img/barbershop.png" alt="borodinski" title="borodinski" width="360" height="576">
+          <a href="#"><img src="img/barbershop.png" alt="borodinski" title="borodinski" width="360" height="576"></a>
         </article>
         <article class="lend">
-          <img src="img/mishka.png" alt="mishka" title="mishka" width="360" height="576">
+          <a href="#"><img src="img/mishka.png" alt="mishka" title="mishka" width="360" height="576"></a>
         </article>
         <article class="lend">
-          <img src="img/aplus.png" alt="aplus" title="aplus" width="360" height="576">
+          <a href="#"><img src="img/aplus.png" alt="aplus" title="aplus" width="360" height="576"></a>
         </article>
         <article class="lend">
-          <img src="img/kvast.png" alt="kvast" title="kvast" width="360" height="576">
+          <a href="#"><img src="img/kvast.png" alt="kvast" title="kvast" width="360" height="576"></a>
         </article>
       </section>
       <div class="paginator">
