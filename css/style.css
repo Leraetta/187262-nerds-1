@@ -56,6 +56,11 @@ header {
     padding: 0 20px;
     font-size: 0;
 }
+.map-container {
+	margin: 0 auto;
+	font-size: 0;
+	width: 1160px;
+}
 .index-logo {
     width: 360px;
     display: inline-block;
