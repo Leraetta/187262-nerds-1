@@ -703,8 +703,9 @@ header {
     margin-top: 20px;
     position: relative;
 }
-.lend:nth-child(3), .lend:nth-child(4) {
-	margin-bottom: 10px;
+.lend:nth-child(3),
+.lend:nth-child(4) {
+    margin-bottom: 10px;
 }
 .lend:nth-child(odd) {
     margin-right: 35px;
@@ -721,7 +722,7 @@ header {
     width: 360px;
 }
 .lend:hover::before {
-	background-image: url(../img/icons/browser-hvr.png);
+    background-image: url(../img/icons/browser-hvr.png);
     content: " ";
     position: relative;
     display: block;
@@ -793,37 +794,37 @@ header {
     background-color: #d7373b;
 }
 .lend .write {
-	display: none;
+    display: none;
 }
 .lend:hover .write {
-	display: block;
+    display: block;
 }
 .lend:nth-child(2) p {
-	width: 235px;
-	margin: 0 auto;
-	text-align: center;
-	margin-bottom: 20px;
+    width: 235px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .lend:nth-child(3) p {
-	width: 178px;
-	margin: 0 auto;
-	text-align: center;
-	margin-bottom: 20px;
+    width: 178px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .lend:nth-child(3) h1 {
-	margin-left: 120px;
+    margin-left: 120px;
 }
 .lend:nth-child(5) p {
-	width: 220px;
-	margin: 0 auto;
-	text-align: center;
-	margin-bottom: 20px;
+    width: 220px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .lend:nth-child(6) p {
-	width: 215px;
-	margin: 0 auto;
-	text-align: center;
-	margin-bottom: 20px;
+    width: 215px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .paginator {
     margin-top: 45px;
@@ -1048,12 +1049,11 @@ h1 {
     left: 680px;
 }
 .letter {
-	position: absolute;
-	margin-top: -555px;
-	left: 310px;
-	background-color: pink;
+    position: absolute;
+    margin-top: -555px;
+    left: 310px;
+    background-color: pink;
 }
-
 .letter form {
     display: none;
     width: 960px;
@@ -1117,15 +1117,15 @@ h1 {
     height: 50px;
 }
 .letter input:hover {
-	border: 2px solid #b4b9bb;
+    border: 2px solid #b4b9bb;
     color: #a8a8a8;
 }
 .letter input:active {
-	border: 2px solid #000000;
+    border: 2px solid #000000;
     color: #505050;
 }
 .letter input:invalid {
-	border: 2px solid #e74246;
+    border: 2px solid #e74246;
     color: #e74246;
 }
 .letter .btn {
@@ -1237,7 +1237,6 @@ input[type="radio"]:checked + label::after {
     height: 25px;
     background-position: -10px -403px;
 }
-
 .sprite {
     background-image: url(../img/icons/sprite.png);
     background-repeat: no-repeat;
