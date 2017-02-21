@@ -411,7 +411,7 @@ header {
     font-size: 16px;
     background-color: #ffffff;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 55px;
     left: 215px;
 }
 .contact h3 {
@@ -568,15 +568,15 @@ header {
     width: 700px;
     box-sizing: border-box;
     font-size: 16px;
-    margin-top: 30px;
-    padding-left: 75px;
+    margin-top: 40px;
+    padding-left: 40px;
 }
 .sale h3 {
     font-family: 'robotobold', 'Arial', sans-serif;
     font-size: 36px;
     line-height: 36px;
     color: #000000;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .sale span {
     font-family: 'roboto', 'Arial', sans-serif;
@@ -695,12 +695,16 @@ header {
     vertical-align: top;
     padding-left: 40px;
     margin-top: 30px;
+    font-size: 0;
 }
 .lend {
     display: inline-block;
     vertical-align: top;
     margin-top: 20px;
     position: relative;
+}
+.lend:nth-child(3), .lend:nth-child(4) {
+	margin-bottom: 10px;
 }
 .lend:nth-child(odd) {
     margin-right: 35px;
@@ -717,7 +721,7 @@ header {
     width: 360px;
 }
 .lend:hover::before {
-	background-image: url(../img/icons/browser-hvr.png;)
+	background-image: url(../img/icons/browser-hvr.png);
     content: " ";
     position: relative;
     display: block;
@@ -822,8 +826,10 @@ header {
 	margin-bottom: 20px;
 }
 .paginator {
-    margin-top: 50px;
+    margin-top: 45px;
     margin-bottom: 60px;
+    margin-right: 40px;
+    font-size: 0;
 }
 .paginator li {
     display: inline;
@@ -837,8 +843,9 @@ header {
     text-transform: uppercase;
     color: #000000;
     display: inline-block;
-    min-width: 50px;
-    height: 50px;
+    vertical-align: top;
+    width: 51px;
+    height: 51px;
     padding: 15px 20px;
     background-color: #eeeeee;
     box-sizing: border-box;
@@ -854,11 +861,14 @@ header {
     background-color: #ffffff;
     border: 3px solid #dbdbdb;
     color: #000000;
+    width: 49px;
+    height: 49px;
+    padding-left: 17px;
     box-sizing: border-box;
 }
 .paginator li:last-child a {
-    width: 265px;
-    padding-left: 80px;
+    width: 260px;
+    padding-left: 78px;
 }
 .header-container,
 .slider {
