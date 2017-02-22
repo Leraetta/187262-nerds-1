@@ -307,6 +307,17 @@ header {
 .about-left li {
     margin-bottom: 23px;
     list-style: none;
+    position: relative;
+}
+.about-left li:before{
+  content:"";
+  display:block;
+  width:25px;
+  height:2px;
+  background: #fb565a;
+  position: absolute;
+  left: -40px;
+  margin-top: 10px;
 }
 .about-left h4 {
     font-family: 'robotomedium', 'Arial', sans-serif;
@@ -343,6 +354,7 @@ header {
 .about-right ul {
     display: inline-block;
     vertical-align: top;
+    font-size: 0;
 }
 .about-right b {
     display: block;
@@ -350,7 +362,8 @@ header {
     font-size: 45px;
     line-height: 10, 06px;
     color: #000000;
-    margin-top: 15px;
+    margin-top: 30px;
+    position: relative;
 }
 .about-right span {
     display: inline-block;
@@ -361,14 +374,19 @@ header {
     font-weight: 500;
     color: #283136;
     width: 90px;
-    margin-top: 27px;
+    margin-top: 29px;
 }
 .about-right li {
     display: inline-block;
-    padding-right: 20px;
+    padding-right: 28px;
 }
 .about-right li:nth-child(2) {
-    padding-right: 10px;
+    padding-right: 29px;
+}
+.about-right sup {
+	position: absolute;
+	top: 5px;
+	font-size: 26px;
 }
 .logos a {
     display: inline-block;
@@ -378,10 +396,12 @@ header {
 }
 .logos a:last-child {
     margin-right: 0px;
+    padding-top: 6px;
 }
 .logos a:first-child {
     margin-left: 30px;
     margin-right: 95px;
+    padding-top: 6px;
 }
 .logos a:nth-child(2) {
     margin-right: 105px;
@@ -452,22 +472,23 @@ header {
 .social {
     display: inline-block;
     vertical-align: top;
-    margin-top: 70px;
+    margin-top: 68px;
     margin-left: 40px;
     width: 320px;
     box-sizing: border-box;
+    margin-bottom: 70px;
 }
 .social-btn {
     display: inline-block;
     vertical-align: top;
-    width: 80px;
-    height: 80px;
+    width: 77px;
+    height: 77px;
     border-radius: 50%;
     background-color: #e1e1e1;
     position: relative;
     right: 40px;
     font-size: 0;
-    margin-right: 10px;
+    margin-right: 13px;
 }
 .social-btn::before {
 	-webkit-box-sizing: border-box;
@@ -573,15 +594,15 @@ header {
     width: 700px;
     box-sizing: border-box;
     font-size: 16px;
-    margin-top: 40px;
-    padding-left: 40px;
+    margin-top: 38px;
+    padding-left: 37px;
 }
 .sale h3 {
     font-family: 'robotobold', 'Arial', sans-serif;
     font-size: 36px;
     line-height: 36px;
     color: #000000;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 .sale span {
     font-family: 'roboto', 'Arial', sans-serif;
@@ -610,7 +631,7 @@ header {
     line-height: 30px;
     text-transform: uppercase;
     color: #000000;
-    margin-top: 0px;
+    margin-top: 3px;
 }
 .left-column label {
     font-family: 'roboto', 'Arial', sans-serif;
@@ -673,7 +694,7 @@ header {
     margin-right: 25px;
 }
 .sort ul:first-child li {
-    padding-right: 25px;
+    padding-right: 26px;
 }
 .sort ul:last-child li {
     padding-right: 20px;
@@ -713,7 +734,7 @@ header {
     margin-bottom: 10px;
 }
 .lend:nth-child(odd) {
-    margin-right: 35px;
+    margin-right: 40px;
 }
 .lend:nth-child(even) {
     margin-right: 0px;
@@ -852,9 +873,10 @@ header {
     vertical-align: top;
     width: 51px;
     height: 51px;
-    padding: 15px 20px;
     background-color: #eeeeee;
     box-sizing: border-box;
+    padding-top: 19px;
+    padding-left: 23px;
 }
 .paginator a:hover {
     background-color: #dfdfdf;
@@ -869,7 +891,8 @@ header {
     color: #000000;
     width: 49px;
     height: 49px;
-    padding-left: 17px;
+    padding-top: 16px;
+    padding-left: 18px;
     box-sizing: border-box;
 }
 .paginator li:last-child a {
@@ -1009,7 +1032,8 @@ h1 {
 .slide:nth-child(1) {
     background-image: url(../img/slider-1.jpg);
     background-repeat: no-repeat;
-    background-position: 398px 0px;
+    background-position: 398px -10px;
+    background-size: 755px;
     background-size: contain;
 }
 .slide:nth-child(2) {
@@ -1152,7 +1176,7 @@ h1 {
     box-sizing: border-box;
 }
 .functions h2 {
-    margin-bottom: 17px;
+    margin-bottom: 15px;
 }
 .functions {
     margin-bottom: 48px;
