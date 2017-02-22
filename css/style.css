@@ -99,14 +99,8 @@ header {
     display: block;
     text-decoration: none;
     color: #000000;
-    padding-top: 75px;
-    padding-right: 44px;
-}
-.main-nav li:nth-child(3) {
-    padding-right: 4px;
-}
-.main-nav li:nth-child(2) {
-    padding-right: 5px;
+    padding-top: 77px;
+    padding-right: 47px;
 }
 .main-nav a:hover {
     color: #f7898b;
@@ -122,8 +116,8 @@ header {
     display: block;
     text-decoration: none;
     color: #000000;
-    padding-top: 75px;
-    padding-left: 81px;
+    padding-top: 77px;
+    padding-left: 85px;
 }
 .basket a:hover {
     color: #f7898b;
@@ -135,7 +129,7 @@ header {
     content: "";
     position: absolute;
     top: 83px;
-    left: 41px;
+    left: 43px;
     width: 15px;
     height: 15px;
     background: transparent url(../img/icons/cart-icon.png) no-repeat;
@@ -176,7 +170,7 @@ header {
     font-weight: 700;
     color: #283136;
     padding-top: 8px;
-    margin-bottom: 37px;
+    margin-bottom: 39px;
 }
 .slide .btn-1 {
     display: block;
@@ -230,7 +224,8 @@ header {
     font-weight: 500;
     color: #283136;
     width: 250px;
-    margin-bottom: 30px;
+    margin-bottom: 33px;
+    margin-top: 12px;
 }
 .feature-item a,
 .contact a {
@@ -294,8 +289,8 @@ header {
     line-height: 45px;
     font-weight: 100;
     color: #000000;
-    margin-top: 32px;
-    margin-bottom: 38px;
+    margin-top: 36px;
+    margin-bottom: 35px;
 }
 .about-left p {
     width: 620px;
@@ -321,6 +316,9 @@ header {
     color: #000000;
     margin-bottom: 26px;
 }
+.about-left ul {
+	padding-left: 38px;
+}
 .about-right {
     display: inline-block;
     vertical-align: top;
@@ -328,7 +326,7 @@ header {
     font-size: 16px;
 }
 .about-right img {
-    margin-bottom: 10px;
+   margin-bottom: 10px;
 }
 .about-right h4 {
     font-family: 'robotomedium', 'Arial', sans-serif;
@@ -340,7 +338,7 @@ header {
 }
 .pst {
     width: 385px;
-    margin-left: -45px;
+    margin-left: -40px;
 }
 .about-right ul {
     display: inline-block;
@@ -472,6 +470,9 @@ header {
     margin-right: 10px;
 }
 .social-btn::before {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     content: "";
     position: absolute;
     top: 50%;
@@ -738,7 +739,6 @@ header {
     display: inline-block;
     vertical-align: top;
     width: 360px;
-    height: 230px;
     background-color: #eeeeee;
     left: 0px;
     bottom: 11px;
@@ -781,6 +781,7 @@ header {
     text-transform: uppercase;
     color: #ffffff;
     display: inline-block;
+    vertical-align: top;
     width: 200px;
     height: 50px;
     text-align: center;
@@ -931,6 +932,7 @@ h1 {
 .price-controls label {
     font-size: 16px;
     display: inline-block;
+    vertical-align: top;
     width: 50%;
 }
 .max-price {
@@ -1007,8 +1009,7 @@ h1 {
 .slide:nth-child(1) {
     background-image: url(../img/slider-1.jpg);
     background-repeat: no-repeat;
-    background-position: right 10px top;
-    background-position-y: -5px;
+    background-position: 398px 0px;
     background-size: contain;
 }
 .slide:nth-child(2) {
