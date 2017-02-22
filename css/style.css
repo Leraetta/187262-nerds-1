@@ -765,6 +765,7 @@ header {
     bottom: 11px;
     box-sizing: border-box;
     margin-right: 0;
+    padding-bottom: 44px;
 }
 .write h1 {
     font-family: 'robotobold', 'Arial', sans-serif;
